@@ -1,0 +1,11 @@
+这是模板方法模式的测试！！！
+
+类图见图
+
+总结：
+	模板方法就是先制造出要创造的模板类（抽象），向外提供已经整理好的对外方法。其他方法都是在对外方法中排列好了！！
+
+定义：
+	Define the skeleton of an algorithm in an operation, deferring some step to subclasses.Template Method lets 
+subclasses redefine certain steps of algorithm without changing the algorthm's structure.
+(定义一个操作中的算法框架，而将一些步骤延迟到子类中。使得子类可以不改变一个算法的结构即可重定义该算法的某些特定的步骤。)

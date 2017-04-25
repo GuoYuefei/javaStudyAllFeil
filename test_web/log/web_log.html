@@ -1,0 +1,50 @@
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <base href="http://localhost:8080/testEE/">
+    
+    <title>My JSP 'greeting.jsp' starting page</title>
+    
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="0">    
+	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+	<meta http-equiv="description" content="This is my page">
+	<!--
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	-->
+
+<script type="text/javascript">
+//form提交前，验证：营销活动最少选择两个
+function check(){
+//    if(验证条件不通过){
+//        return false;
+//    }else{
+//        return true;//不写此返回值也行，此时就直接提交了
+//    }
+
+</script>
+  </head>
+  
+  <body>
+  	    <form namr="login" action="/testEE/show.jsp" method="post" onsubmit="">
+    	ID：&nbsp
+    	<input type="text" name="name">
+    	<br>
+    	性别：&nbsp
+    	<input type="radio" name="sex" value="男">man
+    	<input type="radio" name="sex" value="女">woman
+    	<br>
+    	密码：&nbsp
+    	<input type="password" name="passwd"><br>
+    	<input type="submit" value="以post方式提交"><br>
+    	<input type="submit" value="以get方式提交" formmethod="get">
+    </form>
+    <hr/>This is my JSP page.测试中文 <br/>
+  </body>
+</html>
+<!-- Generated at Thu Sep 08 06:41:06 CST 2016-->
