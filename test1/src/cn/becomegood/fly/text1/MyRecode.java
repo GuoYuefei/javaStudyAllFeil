@@ -52,7 +52,7 @@ public class MyRecode {
 		int j = 0; // 用于计数 bytes[j]
 		int k = 0; // 用于计数 result[k]
 		int i = 0; // 用于计数 index[i]
-		for (i = 0; i < index.length; i++) {
+		for (i = 0; i <= index.length; i++) {	
 			if (j >= bytes.length)
 				break; // bytes遍历完了就跳出循环
 			if (i >= index.length) { // 若index不够用就循环
